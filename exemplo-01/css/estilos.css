@@ -12,6 +12,7 @@ body {
 div#container {
     margin: auto;
     width: 80%;
+    min-height: 100vh;
     background-color: white;
 }
 
@@ -29,4 +30,39 @@ header a {
 
 header a:hover {
     border-bottom: 2px solid;
+}
+
+main {
+    padding: 2%;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #333;
+    color: white;
+    font-style: italic;
+}
+
+table tfoot {
+    background-color: #ccc;
+}
+
+table td,
+table th {
+    border: 1px solid #333;
+    padding: 5px 10px;
+
 }
